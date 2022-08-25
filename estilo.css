@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+/* cabecalho */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px auto;
+    }
+
+ul {
+    display: flex;
+    gap: 45px;
+    list-style-type: none;
+    color:#FFF2E7;
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+}
+
+header #logotopo {
+    height: 62px;
+    width: 62px;
+}
+
+/* corpo */
+
+main {
+    border-top: 0.4px solid #FFF2E7;
+    
+}
+
+#ballebot{
+    width: 394.13px;
+    height: 429.31px;
+}
+
+.colunas {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+}
+
+.textodomain{
+   padding-top: 94px;
+
+}
+
+.titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+    margin-bottom: 32px;
+}
+
+footer{
+    padding-top: 31px;
+}
+
+
+#rodape{
+    height: 85px;
+}
