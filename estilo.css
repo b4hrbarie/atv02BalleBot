@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 30px auto;
+    margin: 20px auto;
     }
 
 ul {
@@ -39,14 +39,13 @@ main {
 }
 
 #ballebot{
-    width: 394.13px;
-    height: 429.31px;
+    height: 350px;
 }
 
 .colunas {
     display: flex;
     justify-content: space-around;
-    margin: 30px auto;
+    margin: 20px auto;
 }
 
 .textodomain{
@@ -59,14 +58,66 @@ main {
     font-weight: 400;
     font-size: 64px;
     color: #FFF2E7;
-    margin-bottom: 32px;
+    margin-bottom: 25px;
 }
+
+.subtitulo {
+   color: #ECD6C4;
+   font-family: 'Sarala';
+   font-weight: 400;
+   font-size: 24px;
+
+}
+
+button {
+    width: 185px;
+    height: 67px;
+    background-color: #ECD6C4;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 14px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #2F2325;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+
+.linhas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 15px;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    color: #FFF2E7;
+}
+
+.topicos {
+    font-family:'Sarala', sans-serif;
+    color: #ECD6C4;
+    font-size: 16px;
+}
+
 
 footer{
     padding-top: 31px;
+    border-top: 0.4px solid #FFF2E7;
 }
 
 
 #rodape{
-    height: 85px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
 }
