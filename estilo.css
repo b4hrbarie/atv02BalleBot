@@ -7,6 +7,8 @@
 
 body {
     background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    height: 100%;
+    width: 100%;
 }
 
 /* cabecalho */
@@ -14,21 +16,22 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 20px auto;
+    margin: 1% auto;
+    height: 8%;
     }
 
 ul {
     display: flex;
-    gap: 45px;
+    gap: 20px;
     list-style-type: none;
     color:#FFF2E7;
     font-family: 'Sarala', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
-header #logotopo {
-    height: 62px;
-    width: 62px;
+#logotopo {
+    height: 100%;
+    
 }
 
 /* corpo */
@@ -38,19 +41,22 @@ main {
     
 }
 
-#ballebot{
-    height: 350px;
-}
-
 .colunas {
     display: flex;
     justify-content: space-around;
-    margin: 20px auto;
+    margin: 1% auto;
+    height: 30%;
+}
+
+#ballebot{
+    height: 100%;
+    flex-shrink: 4;
 }
 
 .textodomain{
-   padding-top: 94px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
 }
 
 .titulo{
@@ -58,7 +64,6 @@ main {
     font-weight: 400;
     font-size: 64px;
     color: #FFF2E7;
-    margin-bottom: 25px;
 }
 
 .subtitulo {
@@ -66,12 +71,11 @@ main {
    font-family: 'Sarala';
    font-weight: 400;
    font-size: 24px;
-
 }
 
 button {
-    width: 185px;
-    height: 67px;
+    width: 200px;
+    height: 70px;
     background-color: #ECD6C4;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
@@ -81,26 +85,25 @@ button {
     font-size: 24px;
     text-align: center;
     color: #2F2325;
-    margin-top: 25px;
     margin-left: 45px;
 }
 
 .linhas{
+    margin: 2% auto;
+    height: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 15px;
+    justify-content: space-evenly;
     align-items: center;
-    padding-top: 30px;
-    margin-bottom: 20px;
 }
 
 h2 {
     border-top: 0.4px solid #FFF2E7;
-    padding-top: 15px;
     font-family: 'Righteous', cursive;
     font-size: 24px;
     color: #FFF2E7;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .topicos {
@@ -111,13 +114,14 @@ h2 {
 
 
 footer{
-    padding-top: 31px;
+    height: 8%;
     border-top: 0.4px solid #FFF2E7;
+    padding: 1% 0;
 }
 
 
 #rodape{
-    height: 70px;
+    height: 100%; 
     display: block;
     margin: 0 auto;
 }
